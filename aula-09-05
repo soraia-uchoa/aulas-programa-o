@@ -32,3 +32,42 @@ formulario > exibe mensagem "cadastro concluido"
 [tem produto em estoque?]
 -> SIM: [FINALIZAR PEDIDO] -> [FIM]
 -> NÃO: [MOSTRAE MENSAGEM DE ERRO] -> [FIM]
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+ATIVIDADE
+ANÁLISE E PROJETO DE SISTEMAS
+TEMA:DIAGRAMA DE BIBLIOTECA
+
+-> PEDIDOS DE LIVROS DE UMA BIBLIOTECA:
+[INÍCIO]
+   ↓
+[ALUNO ESCOLHE O LIVRO]
+   ↓
+[ALUNO CONFIRMA O PEDIDO]
+   ↓
+[TEM O LIVRO ESCOLHIDO?]
+-> SIM : [FINALIZAR PEDIDO] -> [FIM]
+-> NÃO : [MOSTRAR MENSAGEM DE ERRO] -> [FIM]
+
+----
+TEMA:DIAGRAMA DE CADASTRO DE UMA BIBLIOTECA:
+
+->[TELA DE CADASTRO]
+     ↓
+->[NOME DO ALUNO]
+     ↓
+->[NÚMERO DE TELEFONE]
+     ↓
+->[EMAIL]
+     ↓
+->[SENHA]
+     ↓
+->[CONFIRMAR SENHA]
+     ↓
+->[CADASTRO CONCLUÍDO]
+-> SIM: [CONCLUIR CADASTRO]
+-> NÃO: [INFORMAR ALUNO O ERRO]
+
+
