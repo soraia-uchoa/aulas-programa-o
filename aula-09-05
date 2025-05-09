@@ -1,0 +1,20 @@
+ANÁLISE E PROJETO DE SISTEMAS
+TEMA: DIAGRAMA VISUAIS DE SISTEMAS - DIAGRAMA DE SEWUENCIAS E DIAGRAMA DE ATIVIDADES
+
+//DIAGRAMA DE SEQUÊNCIA 
+usuario > interface: digita e envia login
+interface > servidor: enviar dados
+servidor > banco de dados: verifica se existe
+banco de dados > servidor: reposta 
+servidor > interface: enviar resultado (ok ou erro)
+interface > usuario: exibe mensagem
+
+---
+
+-> SIATEMA: CADASTRO DE NOVOS ALUNOS
+usuario > formulario: digitar dados 
+formulario > validação: verificar se está tudo preenchido corretamente
+validação > banco de dados: salvar as informaçês 
+banco de dados > validação: confirmar
+validação > formulario: cadastro concluído
+formulario > exibe mensagem "cadastro concluido" 
