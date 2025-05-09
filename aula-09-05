@@ -18,3 +18,17 @@ validação > banco de dados: salvar as informaçês
 banco de dados > validação: confirmar
 validação > formulario: cadastro concluído
 formulario > exibe mensagem "cadastro concluido" 
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+//DIAGRAMA DE ATIVIDADES
+-> FUNÇÃO PEDIDO DE LOJA VIRTUAL:
+[INÍCIO]
+
+[cliente escolhe o projeto]
+   ↓
+[cliente confirmar o pedido]
+   ↓
+[tem produto em estoque?]
+-> SIM: [FINALIZAR PEDIDO] -> [FIM]
+-> NÃO: [MOSTRAE MENSAGEM DE ERRO] -> [FIM]
