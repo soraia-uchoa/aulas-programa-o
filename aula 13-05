@@ -1,0 +1,22 @@
+import  { useState } from 'react'
+
+// HOOK : ESTADOS = useState()
+// useState() é um hook que armazena e atualiza valores dinâmicis na tela
+//const [variavel, setVariavel] = useState(valorInicial)
+
+export default function App() {
+  
+  const [numero, setNumero] = useState(0)
+  
+function aumentar() {
+  setNumero(numero + 1)
+}
+
+  return(
+    <div>
+      <h2>Você clicou {numero} vezes</h2>
+      <button onClick={aumentar}>clica ai pae</button>
+    </div>
+  )
+
+}
